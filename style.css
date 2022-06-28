@@ -1,0 +1,104 @@
+body {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	background-color: rgb(176, 176, 176);
+	height: 100vh;
+}
+
+.calculator {
+	display: flex;
+	flex-direction: column;
+	width: 270px;
+	
+	padding: 15px;
+	border-radius: 30px;
+	margin-top: 50px;
+}
+
+.display {
+	height: 80px;
+	width: 270px;
+
+    
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(255, 0, 0);
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 50px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.topRow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+button {
+	border-style: none;
+	color: rgb(255, 0, 0);
+	font-size: 30px;
+	transition: 0.4s;
+}
+
+.digits {
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;
+	gap: 10px;
+}
+
+.digit {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(0, 0, 0);
+}
+
+.digit:hover {
+	background-color: rgb(255, 245, 245);
+}
+
+.operators {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60px;
+	gap: 10px;
+}
+
+.operator {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+
+.operator:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+#clear {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	font-size: 20px;
+	background-color: rgb(8, 0, 255);
+	color: white;
+}
+
+#clear:hover {
+	background-color: red;
+}
+
+.inputs {
+	display: flex;
+	
+	gap: 10px;
+}
